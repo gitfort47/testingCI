@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-22T10:10:32 IST" name="Default suite" finished-at="2021-04-22T10:10:36 IST" duration-ms="4159">
+  <suite started-at="2021-04-22T11:22:36 IST" name="Default suite" finished-at="2021-04-22T11:22:39 IST" duration-ms="3677">
     <groups>
     </groups>
-    <test started-at="2021-04-22T10:10:32 IST" name="Default test" finished-at="2021-04-22T10:10:36 IST" duration-ms="4159">
+    <test started-at="2021-04-22T11:22:36 IST" name="Default test" finished-at="2021-04-22T11:22:39 IST" duration-ms="3677">
       <class name="loginTest.validLogin">
-        <test-method signature="Verify_Url_Is_Working_Or_Not()[pri:1, instance:loginTest.validLogin@2d2ffcb7]" started-at="2021-04-22T10:10:32 IST" name="Verify_Url_Is_Working_Or_Not" finished-at="2021-04-22T10:10:35 IST" duration-ms="3640" status="FAIL">
+        <test-method signature="Verify_Url_Is_Working_Or_Not()[pri:1, instance:loginTest.validLogin@2d2ffcb7]" started-at="2021-04-22T11:22:36 IST" name="Verify_Url_Is_Working_Or_Not" finished-at="2021-04-22T11:22:39 IST" duration-ms="3229" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://www.facebook.com/] but found [https://facebook.com/]]]>
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Url_Is_Working_Or_Not -->
-        <test-method signature="Login_verification()[pri:2, instance:loginTest.validLogin@2d2ffcb7]" started-at="2021-04-22T10:10:35 IST" name="Login_verification" finished-at="2021-04-22T10:10:36 IST" duration-ms="456" status="PASS">
+        <test-method signature="Login_verification()[pri:2, instance:loginTest.validLogin@2d2ffcb7]" started-at="2021-04-22T11:22:39 IST" name="Login_verification" finished-at="2021-04-22T11:22:39 IST" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_verification -->
